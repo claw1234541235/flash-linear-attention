@@ -1,6 +1,3 @@
-# Copyright (c) 2023-2025, Songlin Yang, Yu Zhang
-# Modified for QuasarAttention
-
 import torch
 import torch.nn.functional as F
 import triton
