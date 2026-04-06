@@ -229,7 +229,6 @@ def chunk_quasar(
     return ChunkQuasarFunction.apply(q, k, v, beta, initial_state, output_final_state, cu_seqlens)
 
 
-# === Gate functions from gate.py ===
 def naive_quasar_gate(
     beta: torch.Tensor,
     lambda_t: torch.Tensor,
